@@ -75,7 +75,7 @@ $(function () {
 
     // 電話番号
     if ($('#tel').val() !== '' && $('#tel').val().indexOf('-') === -1) {
-      error = ture;
+      error = true;
       $('#tel').css('background-color', '#f79999');
     } else {
       $('#tel').css('background-color', '#fafafa');
